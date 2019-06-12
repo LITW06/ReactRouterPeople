@@ -10,7 +10,7 @@ export default class PeopleTable extends Component {
             <table className="table table-hover table-striped table-bordered">
                 <thead>
                     <tr>
-                        <th style={{width:'25%'}}>
+                        <th style={{width:'25%'}} className='danger'>
                             <button onClick={this.props.onDeleteClicked} style={buttonStyle} className="btn btn-danger">Delete</button>
                             <button onClick={this.props.onCheckAllClicked} style={buttonStyle} className="btn btn-warning">Check All</button>
                             <button onClick={this.props.onClearAllClicked} style={buttonStyle} className="btn btn-success">Clear All</button>

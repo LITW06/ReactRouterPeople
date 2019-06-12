@@ -74,6 +74,7 @@ export default class EditPage extends React.Component {
         }
         return (
             <div>
+                <h1>Edit person</h1>
                 {content}
             </div>
         )

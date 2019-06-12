@@ -26,13 +26,18 @@ class AddPersonPage extends React.Component {
 
     render() {
         const { firstName, lastName, age} = this.state;
-        return (<PersonForm 
+        return (
+        
+        <div>
+            <h1>Add Person</h1>
+            <PersonForm 
             firstName={firstName} 
             lastName={lastName} 
             age={age}
             onInputChange={this.onInputChange}
             onSubmit={this.onSubmit}
-            />);
+            />
+            </div>);
     }
 }
 

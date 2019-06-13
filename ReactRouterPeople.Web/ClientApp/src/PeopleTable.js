@@ -18,7 +18,7 @@ export default class PeopleTable extends Component {
                         <th>First Name</th>
                         <th>Last Name</th>
                         <th>Age</th>
-                        <th>Edit</th>
+                        <th>Click to Edit</th>
                     </tr>
                 </thead>
                 <tbody>
